@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 function newNote(note) {
     return (
         <Note 
-        key={note.id}
+        key={note.key}
         title={note.title}        
         content={note.content}
         />
